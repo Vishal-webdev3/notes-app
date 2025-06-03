@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Notes App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📁 My Notes</h1>
+
+    <div class="folder-select">
+      <input type="text" id="folderName" placeholder="Enter folder name..." />
+      <button onclick="createFolder()">Add Folder</button>
+    </div>
+
+    <div id="folders"></div>
+  </div>
+
+  <button onclick="deleteAll()">🧨 Delete Everything</button>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
