@@ -4,6 +4,12 @@ A sleek and user-friendly Notes application designed to help you organize your t
 
 ---
 
+## 📸 Screenshot
+
+![notes-app](notes.png)
+
+---
+
 ## Features
 
 - **Folder Creation:** Easily create folders to categorize and organize your notes.  
